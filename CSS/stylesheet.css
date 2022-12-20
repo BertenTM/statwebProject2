@@ -1,16 +1,73 @@
 * {
   margin: 0;
   box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: blue;
   text-align: center;
 }
 
+.navbar-custom {
+  background-color: blue !important;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
 
 
+.nav-link {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  color: rgb(220, 211, 211);
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  margin-top: 30px;
+}
+
+.icons {
+  block-size: 35px;
+  margin: 2px;
+}
+
+.icons:hover {
+  opacity: 85%;
+}
+
+.active {
+  color: black !important;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.clickableCard {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+}
+
+.card {
+  margin: 50px;
+  align-self: center;
+}
+
+p {
+  color: gray;
+}
+
+.card-img-top:hover {
+  opacity: 85%;
+}
+
+.centerNavbar {
+  justify-content: center;
+}
