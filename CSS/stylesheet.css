@@ -12,6 +12,18 @@
   width: 100%;
 }
 
+#purplebar {
+  background-color: rgb(139, 3, 174) !important;
+}
+
+#greenbar {
+  background-color: rgb(22, 120, 48) !important;
+}
+
+h3 {
+  color: gray;
+}
+
 .nav-link {
   display: block;
   color: #ffff;
@@ -106,4 +118,19 @@ footer {
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.cvCardbox {
+  max-width: 650px;
+  border: 2px solid #166ca1;
+}
+
+.cvCardbox .card {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+#imgStudies {
+  width: 60%;
 }
