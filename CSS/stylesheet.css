@@ -2,7 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   text-align: center;
-  
+
 }
 
 .navbar-custom {
@@ -88,4 +88,22 @@ footer {
 
 #selectedSkill {
   color: gray;
+}
+
+.overMijImg img {
+  max-width: 100%;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.cardbox {
+  max-width: 640px;
+  border: 2px solid #1c87c9;
+  text-align: center;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
