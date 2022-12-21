@@ -78,115 +78,118 @@
                 </div>
             </div>
         </nav>
-        <div class="text-center pt-5">
-            <h1>
-                Contacteer me
-            </h1>
-            <p>
-                Heeft u zin in een gezellige babbel of wilt u meer weten over mijn leven
-        als student dan mag u me altijd vrijblijvend contacteren.
-            </p>
-        </div>
-        <div class="row justify-content-center text-center pt-3">
-            <div class="col-lg-5 col-md-8 text-center">
-                <div class="form">
-                    <form method="post" class="contactForm">
-                        <div class="form-group mb-3">
-                            <input
-                                type="text"
-                                required
-                                name="naam"
-                                class="form-control"
-                                id="naam"
-                                placeholder="Naam"
-                            >
-                            <div class="validation text-danger"></div>
-                        </div>
-                        <div class="form-group mb-3 pt-3">
-                            <input
-                                type="text"
-                                required
-                                name="voornaam"
-                                class="form-control"
-                                id="voornaam"
-                                placeholder="Voornaam"
-                            >
-                            <div class="validation text-danger"></div>
-                        </div>
-                        <div class="form-group mb-3 pt-3">
-                            <input
-                                type="email"
-                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                                required
-                                class="form-control"
-                                name="email"
-                                id="email"
-                                placeholder="E-mailadres"
-                            >
-                            <div class="validation text-danger"></div>
-                        </div>
-                        <div class="mb-3 pt-3">
-                            <select class="form-select form-select-lg mb-3" id="selectedSkill" aria-label=".form-select-lg">
-                                <option value="HTML" selected>HTML</option>
-                                <option value="CSS">CSS</option>
-                                <option value="Bootstrap">Bootstrap</option>
-                                <option value="C#">C#</option>
-                                <option value="Git">Git/Github</option>
-                                <option value="SQL">SQL</option>
-                            </select>
-                        </div>
-                        <div class="form-group mb-3 pt-3">
-                            <textarea
-                                class="form-control"
-                                required
-                                name="vraag"
-                                rows="6"
-                                placeholder="Stel hier uw vraag"
-                            ></textarea>
-                        </div>
-                        <div class="text-center text-danger mb-4">
-                            <button type="submit" class="btn btn-primary btn-round-lg btn-xl mb-5" id="versturen">
-                                Versturen
-                            </button>
-                        </div>
-                    </form>
+        <main class="container-fluid">
+            <div class="text-center pt-5">
+                <h1>
+                    Contacteer me
+                </h1>
+                <p>
+                    Heeft u een vraag over mijn skills of iets waar ik u eventueel mee kan helpen
+         dan mag u me altijd vrijblijvend contacteren.
+                </p>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-5 col-md-8 text-center">
+                    <div class="form">
+                        <form method="post" class="contactForm">
+                            <div class="form-group mb-3">
+                                <input
+                                    type="text"
+                                    required
+                                    name="naam"
+                                    class="form-control"
+                                    id="naam"
+                                    placeholder="Naam"
+                                >
+                                <div class="validation text-danger"></div>
+                            </div>
+                            <div class="form-group mb-3 pt-2">
+                                <input
+                                    type="text"
+                                    required
+                                    name="voornaam"
+                                    class="form-control"
+                                    id="voornaam"
+                                    placeholder="Voornaam"
+                                >
+                                <div class="validation text-danger"></div>
+                            </div>
+                            <div class="form-group mb-3 pt-2">
+                                <input
+                                    type="email"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                    required
+                                    class="form-control"
+                                    name="email"
+                                    id="email"
+                                    placeholder="E-mailadres"
+                                >
+                                <div class="validation text-danger"></div>
+                            </div>
+                            <div class="mb-3 pt-2">
+                                <select class="form-select form-select-lg mb-3" id="selectedSkill" aria-label=".form-select-lg">
+                                    <option value="HTML" selected>HTML</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="Bootstrap">Bootstrap</option>
+                                    <option value="C#">C#</option>
+                                    <option value="Git">Git/Github</option>
+                                    <option value="SQL">SQL</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-3 pt-2">
+                                <textarea
+                                    class="form-control"
+                                    required
+                                    name="vraag"
+                                    rows="6"
+                                    placeholder="Stel hier uw vraag"
+                                ></textarea>
+                            </div>
+                            <div class="text-center text-danger mb-3 pt-2">
+                                <button type="submit" class="btn btn-primary btn-round-lg btn-xl mb-5" id="versturen">
+                                    Versturen
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+        </main>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between">
+        <div class="col-md-6 d-flex">
+            <span class="text-muted">Copyright &copy 2022 - Berten Janssens</span>
         </div>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 m-5 mb-0">
-            <div class="col-md-6 d-flex">
-                <span class="text-muted">Copyright &copy 2022 - Berten Janssens</span>
-            </div>
-            <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
-                <a href="mailto:r0845991@thomasmore.be">
-                    <img src="img/icons/envelope-fill.svg" alt="Logo E-mail" class="icons">
-                </a>
-                <a href="https://www.linkedin.com">
-                    <img
-                        src="img/icons/linkedin.svg"
-                        alt="Logo Linkedin"
-                        target="blank"
-                        class="icons"
-                    >
-                </a>
-                <a href="https://discord.com/">
-                    <img
-                        src="img/icons/discord.svg"
-                        class="icons"
-                        alt="Logo Discord"
-                        target="blank"
-                    >
-                </a>
-                <a href="https://www.facebook.com/">
-                    <img
-                        src="img/icons/facebook.svg"
-                        alt="Logo Facebook"
-                        target="blank"
-                        class="icons"
-                    >
-                </a>
-            </ul>
-        </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
-    </body>
+        <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+            <a href="mailto:r0845991@thomasmore.be">
+                <img src="img/icons/envelope-fill.svg" alt="Logo E-mail" class="icons">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img
+                    src="img/icons/linkedin.svg"
+                    alt="Logo Linkedin"
+                    target="blank"
+                    class="icons"
+                >
+            </a>
+            <a href="https://discord.com/">
+                <img
+                    src="img/icons/discord.svg"
+                    class="icons"
+                    alt="Logo Discord"
+                    target="blank"
+                >
+            </a>
+            <a href="https://www.facebook.com/">
+                <img
+                    src="img/icons/facebook.svg"
+                    alt="Logo Facebook"
+                    target="blank"
+                    class="icons"
+                >
+            </a>
+        </ul>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

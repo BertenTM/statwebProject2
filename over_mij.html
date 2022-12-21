@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Berten Janssens">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
-    <link rel="icon" href="img/favicon.ico" sizes="16x16" type="img/ico">
-    <title>Over mij</title>
-  </head>
-  <body>
-    <div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cv.html">Cv</a></li>
-        <li><a class="active" href="over_mij.html">Over mij</a></li>
-        <li><a href="hobby.html">Hobby's</a></li>
-        <li><a href="interesses.html">Interesses</a></li>
-        <li><a href="nieuws.html">Nieuws</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h1>Wie ben ik?</h1>
-    </div>
-    <div>
-        <p>Zoals eerder vermeld op de homepage ben ik een 43 jarige man uit Vorselaar.
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Berten Janssens">
+        <link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+        <link
+            rel="icon"
+            href="img/favicon.ico"
+            sizes="16x16"
+            type="img/ico"
+        >
+        <title>Over mij</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light navbar-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/icons/favicon.ico" alt="Logo BJ">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse centerNavbar" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv.html">Cv</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="over_mij.html">Over mij</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hobby.html">Hobby's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interesses.html">Interesses</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >Nieuws</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="programmeren.html">Inleiding/Object georiënteerd tot programmeren</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="datamodellering.html">Datamodellering</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="werkveldexploratie.html">Werkveldexploratie</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="statischewebsites.html">Statische websites</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1 class="pt-5">Wie ben ik?</h1>
+            <div>
+                <p>
+                    Zoals eerder vermeld op de homepage ben ik een 43 jarige man uit Vorselaar.
         Ik ben bijna 20 jaar gelukkig getrouwd en vader van drie kinderen.
         In het verleden heb ik altijd in de bouwsector gewerkt, 
         hier ben ik eigenlijk een beetje ingerold aangezien mijn schoonvader een eigen bouwbedrijf leidde.
@@ -34,7 +90,44 @@
         Naarmate ik meer ervaring kreeg in de bouwsector werkte ik me op, zo ben ik jarenlang ploegbaas geweest.
         Toen mijn schoonvader besloot bijna met pensioen te gaan heb ik overwogen om de zaak verder te zetten.
         Maar... er was nog iets anders waar ik altijd al iets mee wou doen, daar kwam nu natuurlijk ruimte voor, leren werken met computers.
-        Na een bezoek aan Thomas More Kempen heb ik besloten te leren programmeren.</p>
-    </div>
-  </body>
+        Na een bezoek aan Thomas More Kempen heb ik besloten te leren programmeren.
+                </p>
+            </div>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between">
+            <div class="col-md-4 d-flex">
+                <span class="text-muted">Copyright &copy 2022 - Berten Janssens</span>
+            </div>
+            <ul class="nav col-md-5 justify-content-end list-unstyled d-flex">
+                <a href="mailto:r0845991@thomasmore.be">
+                    <img src="img/icons/envelope-fill.svg" alt="Logo E-mail" class="icons">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img
+                        src="img/icons/linkedin.svg"
+                        alt="Logo Linkedin"
+                        target="blank"
+                        class="icons"
+                    >
+                </a>
+                <a href="https://discord.com/">
+                    <img
+                        src="img/icons/discord.svg"
+                        class="icons"
+                        alt="Logo Discord"
+                        target="blank"
+                    >
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img
+                        src="img/icons/facebook.svg"
+                        alt="Logo Facebook"
+                        target="blank"
+                        class="icons"
+                    >
+                </a>
+            </ul>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
